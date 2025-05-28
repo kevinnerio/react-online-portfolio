@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroHome from "./components/homepage/hero"
 
 const user_data = {

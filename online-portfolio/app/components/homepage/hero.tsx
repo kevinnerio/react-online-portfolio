@@ -3,7 +3,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-export default function HeroHome({user_data}) {
+interface UserData {
+  firstname: string; 
+  lastname: string; 
+  summary: string;
+}
+
+export default function HeroHome({ user_data } : { user_data: UserData }) {
   return (
     <div className="relative min-h-screen font-sans">
       <div
