@@ -11,7 +11,7 @@ interface UserData {
 
 export default function HeroHome({ user_data } : { user_data: UserData }) {
   return (
-    <div className="relative min-h-screen font-sans py-8">
+    <div className="relative min-h-[50vh] font-sans py-8 z-0">
       <div
         className="absolute top-0 left-0 w-full h-[50vh] bg-cover bg-center z-0"
         style={{ backgroundImage: "url('/images/black_background_image.jpg')" }}
@@ -65,12 +65,6 @@ export default function HeroHome({ user_data } : { user_data: UserData }) {
             </motion.div>
           </div>
         </div>
-      </div>
-
-      <div className="relative z-10 min-h-screen p-10 sm:p-20 grid place-items-center">
-        <main className="w-full max-w-5xl">
-          {/* Additional content goes here */}
-        </main>
       </div>
     </div>
   );
