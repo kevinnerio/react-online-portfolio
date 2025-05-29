@@ -11,13 +11,13 @@ interface UserData {
 
 export default function HeroHome({ user_data } : { user_data: UserData }) {
   return (
-    <div className="relative min-h-screen font-sans">
+    <div className="relative min-h-screen font-sans py-8">
       <div
         className="absolute top-0 left-0 w-full h-[50vh] bg-cover bg-center z-0"
         style={{ backgroundImage: "url('/images/black_background_image.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/50 z-10 flex items-center justify-center">
-          <div className="relative z-10 flex flex-col sm:flex-row items-center gap-10 px-6 sm:px-12 max-w-5xl w-full">
+        <div className="absolute inset-0 bg-black/50 z-10 flex items-center justify-center py-8">
+          <div className="relative z-10 flex flex-col sm:flex-row items-center gap-10 px-6 sm:px-12 max-w-5xl w-full py-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ export default function HeroHome({ user_data } : { user_data: UserData }) {
             </p>
 
             {/* Social Icons */}
-            <div className="flex gap-4 z-50 relative">
+            <div className="flex gap-4 z-1 relative">
               <a
                 href="https://linkedin.com/in/kevin-nerio"
                 target="_blank"
