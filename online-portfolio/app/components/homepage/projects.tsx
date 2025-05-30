@@ -2,7 +2,7 @@
 
 interface Project {
   name: string; 
-  url: string[];  
+  url: string;  
 }
 
 interface ProjectData {
@@ -10,7 +10,7 @@ interface ProjectData {
   projects: Project[]; 
 }
 
-export default function ProjectHome({ project_data } : { project_data: projectData }) {
+export default function ProjectHome({ project_data } : { project_data: ProjectData }) {
 
   return (
     <div className="font-sans py-8 bg-gray-100">
