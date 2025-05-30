@@ -17,30 +17,30 @@ const project_data = {
   "title" : "Projects",  
   "projects" : [
     {
-      "url" : "https://react-online-portfolio-6j4uzkfl7-kevinnerios-projects.vercel.app/", 
+      "url" : "https://react-online-portfolio.vercel.app/", 
       "name" : "Personal Portfolio", 
       "description" : "Next.js, React, & Typescript"
-    }, 
-    {
-      "url" : "https://www.getsatdeals.com/", 
-      "name" : "Dish Home Satellite Offers",
-      "description" : "Laravel & Blade"
     }, 
     {
       "url" : "https://n.thetriviaquest.com/", 
       "name" : "The Trivia Quest",
       "description" : "Next.js, React, & Typescript"
-    }, 
-    {
-      "url" : "https://popctrivia.com/", 
-      "name" : "Trivia WordPress LAMP STACK",
-      "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
     },
     {
       "url" : "https://www.theashleyhoffmangroup.com/", 
       "name" : "The Ashley Hoffman Group",
       "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
     },
+    {
+      "url" : "https://drakensecurity.com/", 
+      "name" : "Draken Security ",
+      "description" : "Wordpress | PHP, Beaver Builder, Reactjs"
+    },
+    {
+      "url" : "https://www.getsatdeals.com/", 
+      "name" : "Dish Satellite Offers",
+      "description" : "Laravel, Bootstrap, & Blade"
+    },  
     {
       "url" : "https://popctrivia.com/", 
       "name" : "Popular Culture Trivia",
@@ -52,9 +52,9 @@ const project_data = {
 export default function Home() {  
   return(
     <div>
-      <HeroHome user_data={user_data}/>
-      <AboutHome about_data={about_data}/>
+      <HeroHome user_data={user_data} />
       <ProjectHome project_data={project_data}/>
+      <AboutHome about_data={about_data}/>
     </div>
   );
 }
