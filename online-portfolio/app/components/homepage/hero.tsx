@@ -11,7 +11,7 @@ interface UserData {
 
 export default function HeroHome({ user_data } : { user_data: UserData }) {
   return (
-    <div className="relative min-h-[70vh] sm:min-h-[60vh] font-sans pt-8 pb-8">
+    <div className="relative font-sans pt-8 pb-8">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: "url('/images/black_background_image.jpg')" }}
@@ -61,7 +61,7 @@ export default function HeroHome({ user_data } : { user_data: UserData }) {
             className="flex-shrink-0 order-1 sm:order-2"
           >
             <Image
-              src="/images/profile_pic.png"
+              src="/images/image_1.png"
               alt="Profile picture of Kevin Nerio"
               width={200}
               height={200}
