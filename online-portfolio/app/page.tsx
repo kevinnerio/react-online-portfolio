@@ -52,9 +52,9 @@ const project_data = {
 export default function Home() {  
   return(
     <div>
-      <HeroHome user_data={user_data} about_data={about_data} />
+      <HeroHome user_data={user_data} />
       <ProjectHome project_data={project_data}/>
-      {/* <AboutHome about_data={about_data}/> */}
+      <AboutHome about_data={about_data}/>
     </div>
   );
 }

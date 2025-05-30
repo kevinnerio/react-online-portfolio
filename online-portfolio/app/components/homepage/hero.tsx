@@ -9,18 +9,7 @@ interface UserData {
   summary: string;
 }
 
-interface AboutData {
-  title: string; 
-  summary: string; 
-}
-
-export default function HeroHome({
-  user_data, 
-  about_data, 
-} : { 
-  user_data: UserData; 
-  about_data: AboutData;
-}) 
+export default function HeroHome({user_data} : { user_data: UserData;}) 
 {
   return (
     <div className="relative font-sans pt-8 pb-8 bg-[#181c20]">
