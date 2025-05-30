@@ -7,7 +7,7 @@ interface AboutData {
 
 export default function AboutHome({ about_data } : { about_data: AboutData }) {
   return (
-    <div className="font-sans py-8 bg-[#202020] bg-linear-to-b from-gray-100 to-white">
+    <div className="font-sans py-8 bg-[#202020] bg-linear-to-b from-gray-100 from-30% to-gray-300 to-70%">
       <div
         className="w-full bg-center"
       >
