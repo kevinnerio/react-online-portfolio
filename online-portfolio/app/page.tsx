@@ -1,15 +1,52 @@
 import HeroHome from "./components/homepage/hero"
 import AboutHome from "./components/homepage/about"
+import ProjectHome from "./components/homepage/projects"
 
 const user_data = {
-  "firstname" : "User", 
-  "lastname" : "Name", 
-  "summary" : "Here is some placeholder text for this section. This text serves simply, and only, as placeholder text. There is no purpose to this, but if you have read up to this point then I congratulate you my bookworm of a friend", 
+  "firstname" : "Kevin", 
+  "lastname" : "Nerio", 
+  "summary" : "I'm a business-minded engineer and entrepreneur with a passion for leveraging technology to bridge the gap between strategy and execution.", 
 }
 
 const about_data = {
   "title" : "About Me",
-  "summary" : "I'm a business-minded engineer and entrepreneur with a passion for bridging the gap between strategy and execution. \n \n After launching my own company and helping businesses grow their digital presence, I dove deep into modern software development to fully understand what’s possible from the ground up. With hands-on experience in full-stack development, digital marketing, and product design, I bring a holistic approach to solving business problems through technology.\n \n Today, I focus on applying that technical knowledge to leadership teams, helping organizations build smarter systems, more scalable products, and stronger customer experiences. Whether you're building a new platform, optimizing digital workflows, or aligning tech decisions with business outcomes I bring the technical fluency and strategic thinking to move ideas from concept to reality."
+  "summary" : "After launching my own company and helping businesses grow their digital presence, I dove deep into modern software development to fully understand what’s possible from the ground up. With hands-on experience in full-stack development, digital marketing, and product design, I bring a holistic approach to solving business problems through technology.\n \n Today, I focus on applying that technical knowledge to leadership teams, helping organizations build smarter systems, more scalable products, and stronger customer experiences. Whether you're building a new platform, optimizing digital workflows, or aligning tech decisions with business outcomes I bring the technical fluency and strategic thinking to move ideas from concept to reality."
+}
+
+const project_data = {
+  "title" : "Projects",  
+  "projects" : [
+    {
+      "url" : "https://react-online-portfolio-6j4uzkfl7-kevinnerios-projects.vercel.app/", 
+      "name" : "Personal Portfolio", 
+      "description" : "Next.js, React, & Typescript"
+    }, 
+    {
+      "url" : "https://www.getsatdeals.com/", 
+      "name" : "Dish Home Satellite Offers",
+      "description" : "Laravel & Blade"
+    }, 
+    {
+      "url" : "https://n.thetriviaquest.com/", 
+      "name" : "The Trivia Quest",
+      "description" : "Next.js, React, & Typescript"
+    }, 
+    {
+      "url" : "https://popctrivia.com/", 
+      "name" : "Trivia WordPress LAMP STACK",
+      "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
+    },
+    {
+      "url" : "https://www.theashleyhoffmangroup.com/", 
+      "name" : "The Ashley Hoffman Group",
+      "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
+    },
+    {
+      "url" : "https://popctrivia.com/", 
+      "name" : "Popular Culture Trivia",
+      "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
+    },
+  ]
 }
 
 export default function Home() {  
@@ -17,6 +54,7 @@ export default function Home() {
     <div>
       <HeroHome user_data={user_data}/>
       <AboutHome about_data={about_data}/>
+      <ProjectHome project_data={project_data}/>
     </div>
   );
 }
