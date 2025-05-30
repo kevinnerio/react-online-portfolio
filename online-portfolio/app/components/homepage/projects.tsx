@@ -25,7 +25,7 @@ export default function ProjectHome({ project_data } : { project_data: ProjectDa
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center text-center w-full bg-center shadow-lg border backdrop-blur-md bg-gray-100 border border-white/10 p-6 max-w-5xl outline outline-2 outline-white/20 outline-offset-4"
         >
-          <h1 className="text-gray-800 text-4xl font-semibold flex items-center justify-center py-6">Project Samples</h1>
+          <h1 className="text-gray-800 text-4xl font-semibold flex items-center justify-center py-6">Projects</h1>
           <div className="flex items-center justify-center py-8 ">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 sm:px-12 max-w-5xl w-full">
             {project_data.projects.map((single_project, index) => (
