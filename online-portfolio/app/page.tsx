@@ -27,6 +27,11 @@ const project_data = {
       "description" : "Next.js, React, & Typescript"
     },
     {
+      "url" : "https://laravel-cloud-repo-main-smg5jd.laravel.cloud/", 
+      "name" : "Pub Trivia",
+      "description" : "Laravel + Postgres on Laravel Cloud"
+    },
+    {
       "url" : "https://www.theashleyhoffmangroup.com/", 
       "name" : "The Ashley Hoffman Group",
       "description" : "Wordpress | PHP, jQuery, Bootstrap, AJAX"
