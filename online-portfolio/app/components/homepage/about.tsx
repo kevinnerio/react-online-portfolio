@@ -22,7 +22,7 @@ export default function AboutHome({ about_data } : { about_data: AboutData }) {
           <h1 className="text-gray-800 text-4xl font-semibold flex items-center justify-center py-6">{about_data.title}</h1>
           <div className="flex items-center justify-center py-8 ">
             <div className="gap-8 px-6 sm:px-12 max-w-5xl w-full">
-              <p>Design, develop, code, and troubleshoot with consideration of upstream and downstream systems and technical implications. Apply knowledge of tools within the Software Development Life Cycle toolchain to improve the value realized by automation. Participate in code reviews to ensure solutions align with predefined specifications. </p>
+              <p> I&apos;m a Los Angeles native with a passion for building things. As a full-stack developer and technical lead, I&apos;ve spent the last several years crafting web applications, leading teams, and bridging the gap between business goals and technical execution. Whether it&apos;s WordPress, Laravel, React, or AWS, I thrive at the intersection of problem-solving and clean, scalable design. Outside of work, I&apos;m a music and arts enthusiast, car lover, and coffee purist. I enjoy live shows, long hikes, and weekends spent grilling with friends. Whether I&apos;m spinning up servers or flipping steaks on the grill, I bring the same energy: fun, curious, collaborative, and always up for a challenge. </p>
             </div>
           </div>
           </motion.div>
