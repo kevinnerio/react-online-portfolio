@@ -17,6 +17,11 @@ const project_data = {
   "title" : "Projects",  
   "projects" : [
     {
+      "url": "https://nextjs-enterprise-boilerplate-nu-two.vercel.app",
+      "name" : "Northfolk Grutman Enterprise Site", 
+      "description" : "Next.js, React, & Typescript [Enterprise optimized]"
+    },
+    {
       "url" : "https://react-online-portfolio.vercel.app/", 
       "name" : "Personal Portfolio", 
       "description" : "Next.js, React, & Typescript"
